@@ -11,6 +11,7 @@ def artist_name=(name)
   artist.add_song(self)
 end
 
-def self.new_by_filename
+def self.new_by_filename(filename)
+  self.new
 end
 end
